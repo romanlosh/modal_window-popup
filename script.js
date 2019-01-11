@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	$(function popup_activation() {
+	$(window).on('load', function() {
 		setTimeout(function() {
 			if ($('.overlay').hasClass('disabled-popup')) {
 				return false;
